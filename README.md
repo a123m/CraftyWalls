@@ -11,25 +11,15 @@ A mobile application that allows users to easily browse, preview, and download h
 - **High-quality images**: All wallpapers are available in high resolution to ensure crisp and vibrant visuals.
 - **Regular updates**: New wallpapers are added frequently to keep your selection fresh.
 
-## Screenshots
-
-Below are some screenshots of the app in action:
-
-![Home Screen](ios/CraftyWalls/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png)
-_Browse wallpapers by category._
-
-![Preview Screen](ios/CraftyWalls/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png)
-_Preview how a wallpaper looks on your device._
-
-![Download Screen](ios/CraftyWalls/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png)
-_Download your selected wallpaper with a single tap._
-
 ## Installation
 
 1. **Download the App**:
    - Visit [Google Play Store](#) or [Apple App Store](#) to download and install the app on your device.
 2. **Install on your device**:
    - Once the app is downloaded, follow the on-screen instructions to install the application.
+
+![Download Screen](assets/demo/demo1.jpeg)
+_This is how the app will look after installation._
 
 ## Usage
 
@@ -43,6 +33,22 @@ _Download your selected wallpaper with a single tap._
    - Once you find a wallpaper you like, tap the "Download" button to save it to your device.
 5. **Set as Wallpaper** (Optional):
    - After downloading, you can set the image directly as your wallpaper from within the app.
+
+## Screenshots
+
+Below are some screenshots of the app in action:
+
+![Home Screen](assets/demo/demo3.jpeg)
+_Browse new wallpapers daily._
+
+![Category Screen](assets/demo/demo2.jpeg)
+_Browse wallpapers by category._
+
+![Preview Screen](assets/demo/demo6.jpeg)
+_Preview how a wallpaper looks on your device._
+
+![Download Screen](assets/demo/demo5.jpeg)
+_Download your selected wallpaper with a single tap._
 
 ## Compatibility
 
