@@ -39,16 +39,16 @@ _This is how the app will look after installation._
 Below are some screenshots of the app in action:
 
 ![Home Screen](assets/demo/demo3.jpeg)
-_Browse new wallpapers daily._
+Browse new wallpapers daily.
 
 ![Category Screen](assets/demo/demo2.jpeg)
-_Browse wallpapers by category._
+Browse wallpapers by category.
 
-![Preview Screen](assets/demo/demo6.jpeg)
-_Preview how a wallpaper looks on your device._
+![Preview Screen](assets/demo/demo6.png)
+Preview how a wallpaper looks on your device.
 
-![Download Screen](assets/demo/demo5.jpeg)
-_Download your selected wallpaper with a single tap._
+![Download Screen](assets/demo/demo5.png)
+Download your selected wallpaper with a single tap.
 
 ## Compatibility
 
