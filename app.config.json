@@ -1,0 +1,72 @@
+{
+    "expo": {
+        "name": "CraftyWalls",
+        "plugins": [
+            [
+                "expo-media-library",
+                {
+                    "photosPermission": "We need access to your photo library to allow you to set your favorite wallpapers as your device's background.",
+                    "savePhotosPermission": "We require permission to add your favorite wallpapers to your photo library, so you can easily access and manage them.We require permission to add your favorite wallpapers to your photo library, so you can easily access and manage them.",
+                    "isAccessMediaLocationEnabled": true
+                }
+            ],
+            [
+                "expo-notifications",
+                {
+                    "icon": "./assets/favicon.png",
+                    "color": "#343434",
+                    "resizeMode": "cover"
+                }
+            ],
+            "expo-router"
+        ],
+        "slug": "CraftyWalls",
+        "version": "1.0.4",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "scheme": "CraftyWalls",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#343434"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "entitlements": {
+                "com.apple.developer.networking.wifi-info": true
+            },
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSPhotoLibraryUsageDescription": "We need access to your photo library to allow you to set your favorite wallpapers as your device's background.",
+                "NSPhotoLibraryAddUsageDescription": "We require permission to add your favorite wallpapers to your photo library, so you can easily access and manage them."
+            },
+            "bundleIdentifier": "com.a123m.CraftyWalls"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "permissions": [
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION"
+            ],
+            "package": "com.a123m.CraftyWalls"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "ce06bac0-4a4f-468a-8425-32698b3233da"
+            }
+        }
+    }
+}
